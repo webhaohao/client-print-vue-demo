@@ -57,6 +57,13 @@
           multipleSelection: []
         }
       },
+
+      mounted() {
+        localClientSocket.event.on('connect_error', (event) => {
+          console.log('event', event);
+          localClientSocket.stop();
+        });
+      },
   
       methods: {
         toggleSelection(rows) {

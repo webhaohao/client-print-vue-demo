@@ -11,7 +11,7 @@
     "@winning-plugin/webpack-filelist-export": "^1.0.8",
     "core-js": "^3.8.3",
     "element-ui": "2.15.14",
-    "local-print-client-socket": "^1.0.0",
+    "local-print-client-socket": "^1.0.1",
     "vue": "^2.6.14"
   },
   "devDependencies": {
